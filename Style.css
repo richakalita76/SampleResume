@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box; 
+ }
+ body{
+    font-family:'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 2.0;
+ }
+
+ .container{
+    background-color: rgb(219, 239, 245);
+    width: 80%;
+    margin: auto;
+    border-left: 5px solid black;
+    padding-left: 4px;
+    padding-top: 20px;
+ }
+ .main-section{
+     width: 100%;
+     display: flex;
+     background-color: rgb(58, 55, 55);
+     color: white;
+ }
+ .listing-order{
+     list-style-type: none;
+ }
+
+ .aboutmyself{
+     width: 70%;
+     padding: 40px;
+ }
+
+ .passport{
+     width: 30%;
+ }
+
+ .img-adj{
+     width: 80%;
+     height: 180px;
+     min-width: 112px;
+     padding-top: 30%;
+ }
+
+ .seperator{
+     padding: 5px;
+ }
+ .header{
+     padding-left: 40px;
+     font-size: 1.1rem;
+ }
+ .paragraph{
+     padding-left: 40px;
+     padding-right: 20px;
+ }
+
+ table,tr,th,td{
+     border: 1px solid black;
+     border-collapse: collapse;
+ }
+ th{
+     text-align: center;
+     background-color: rgb(85, 83, 83);
+     color: white;
+ }
+
+ .table-part{
+     justify-content: center;
+     display: flex;
+ }
+ tr,th{
+     padding: 0 10px 0 10px;
+ }
+ .one{
+     text-align: center;
+ }
+
+.lang{
+    display: flex;
+}
+
+.lang div:first-child{
+    width: 40%;
+    padding-left: 40px;
+}
+.lang div:last-child{
+    width: 60%;
+}
+.progressbar{
+    width:95%
+}
+.project{
+    display: flex;
+}
+.project div:first-child{
+    width: 40%;
+    padding-left: 40px;
+}
+.project div:last-child{
+    width: 60%;
+}
+
+.detail{
+    display: flex;
+}
+.detail div:first-child{
+    width: 40%;
+    padding-left: 40px;
+}
+.detail div:last-child{
+    width: 60%;
+}
+
+.header:hover{
+    border: 1px solid rgb(160, 38, 105);
+    height: 15%;
+    width: 30%;
+    border-radius: 40%;
+    background-color: rgb(243, 171, 195);
+    text-align: center;
+    padding-top: 2%;
+}

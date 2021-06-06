@@ -1,0 +1,98 @@
+ @media only screen and (max-width:360){ 
+    .img-adjust{
+        width: 100%;
+        height: auto;
+    }
+
+    .container{
+        background-color: rgb(235, 165, 140);
+    }
+ } 
+
+@media only screen and (max-width:450px){
+    tr th{
+        padding: 0;
+    }
+
+    .passport{
+        width: 55%;
+    }
+
+    .aboutmyself{
+        width: 55%;
+        padding:5px;
+
+    }
+
+
+}
+
+@media only screen and (max-width:375px){
+    body{
+        font-size:0.6rem;
+    }
+    .paragraph{
+        padding-left: 0px;
+    }
+
+    .detail div:first-child{
+        width: 50%;
+    }
+
+    .header{
+        padding-left: 0px;
+    }
+
+    .img-adjust{
+        width: 20%;
+        height: 20px;
+    }
+
+    .aboutmyself{
+        font-size: 00.5rem;
+        padding-top: 40px;
+        width: 50%;
+        height: 100px;
+    }
+
+    th,tr,td{
+        font-size: 0.6rem;
+    }
+
+    .lang div:first-child{
+        padding-left: 0px;
+    }
+
+    .project div:first-child{
+        padding-left: 0px;
+    }
+
+    .detail div:first-child{
+        padding-left:0px;
+    }
+
+}
+
+
+@media only screen and (max-width:768px){
+    body{
+        font-size:0.7rem ;
+        font-weight:bold;
+    }
+
+    .header:hover{
+
+    border:none;
+    height:0%;
+    width: 0%;
+    border-radius: 0%;
+    text-align:justify;
+    padding-top: 0%;
+
+    }
+}
+
+
+
+
+
